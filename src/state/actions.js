@@ -27,7 +27,7 @@ const correctAnswer = (state, dispatch) => {
 const wrongAnswer = (state, dispatch) => {
   const question = getQuestion();
   let n = state.hearts - 1;
-  if (n == 0){
+  if (n === 0){
     alert("YOU LOST!");
     loadGame(state, dispatch);
   }else{
@@ -41,8 +41,10 @@ const wrongAnswer = (state, dispatch) => {
   }
 }
 
-export default{
+const actions = {
   loadGame: loadGame,
   correctAnswer:correctAnswer,
   wrongAnswer:wrongAnswer
-}
+};
+
+export default actions;

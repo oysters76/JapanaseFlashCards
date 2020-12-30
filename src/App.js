@@ -10,10 +10,14 @@ import './App.css';
 
 function App() {
 
+
   const[state, dispatch] = React.useReducer(reducer, initalState);
+
+
 
   React.useEffect(()=>{
     actions.loadGame(state, dispatch);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
 
@@ -35,7 +39,7 @@ function App() {
       <label className="character-label">{state.character}</label>
       <div className="btn-panel">
         {state.btns.map((btn)=>{
-          return <button onClick={()=>{handleClick(btn)}}>{btn}</button>
+          return <button key={btn} onClick={()=>{handleClick(btn)}}>{btn}</button>
         })}
       </div>
     </div>

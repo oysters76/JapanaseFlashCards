@@ -4,11 +4,11 @@ const reducer = (state, action) => {
       newState.score = action.payload;
     }else if (action.type === 'HEARTS'){
       newState.hearts = action.payload;
-    }else if (action.type == 'CHAR'){
+    }else if (action.type === 'CHAR'){
       newState.character = action.payload;
     }else if (action.type === 'BTNS'){
       newState.btns = action.payload;
-    }else if (action.type == 'INITAL'){
+    }else if (action.type === 'INITAL'){
       newState = Object.assign({}, action.payload);
     }else if (action.type === 'NEXT_QUESTION'){
       console.log(action.payload.hearts);
@@ -21,4 +21,4 @@ const reducer = (state, action) => {
     return newState;
 };
 
-export default reducer; 
+export default reducer;
