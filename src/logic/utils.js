@@ -1,4 +1,3 @@
-
 function getRandomRange(arr) {
   return Math.floor(Math.random() * arr.length);
 }
@@ -22,7 +21,9 @@ function shuffle(array) {
   return array;
 }
 
-export default {
+const utils = {
   shuffle: shuffle,
   getRandomRange: getRandomRange
 }
+
+export default utils;

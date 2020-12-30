@@ -20,9 +20,11 @@ const ROMA = ['A', 'I', 'U', 'E', 'O', 'KA', 'KI', 'KU', 'KE', 'KO',
 'NI', 'NU', 'NE', 'NO', 'HA', 'HI', 'FU', 'HE', 'HO', 'MA', 'MI',
 'MU', 'ME', 'MO', 'YA', 'YU', 'YO', 'RA', 'RI', 'RU', 'RE', 'RO', 'WA', 'WO'];
 
-export default {
+const characters = {
   HIRAGANA: LETTERS,
   KATAKANA: LETTERS2,
   SIZE: LETTERS.length,
   ROMA: ROMA
 }
+
+export default characters;
