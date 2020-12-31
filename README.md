@@ -1,6 +1,6 @@
-# Gwitter (A Twitter Clone) 
+# Japanese Flash Card App using React
 
-This app was created using NodeJS, Mongo, React and Redux. This is used only for learning purposes and to practice skills in functional programming, state management and improving on CSS and ReactJS, and learn new skills. 
+A app that you can use to learn カタカナ (katakana) and ひらがな (hiragana) developed using react, redux and vanilla css. 
 
 ## Available Scripts
 
@@ -26,5 +26,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
 
