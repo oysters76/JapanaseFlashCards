@@ -1,6 +1,6 @@
-# Japanese Flash Card App using React
+# Gwitter (A Twitter Clone) 
 
-A app that you can use to learn カタカナ (katakana) and ひらがな (hiragana) developed using react, redux and vanilla css. 
+This app was created using NodeJS, Mongo, React and Redux. This is used only for learning purposes and to practice skills in functional programming, state management and improving on CSS and ReactJS, and learn new skills. 
 
 ## Available Scripts
 
